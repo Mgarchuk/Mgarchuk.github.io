@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+        <title>Java quiz</title>
+		<style>
+		    a:link    {color:black; text-decoration:none}
+            a:visited {color:black; text-decoration:none}
+            a:hover   {color:red; text-decoration:underline}
+            a:active  {color:pink; text-decoration:underline}
+        </style>
+    </head>
+    <body>
+        <header>
+			<img src="D://ITIROD/Lab2/line.jpg" width="100%" height="100dp" />			
+			<form style="float:right">
+				<select id="phone" name="phone">
+					<option value="ru">ru</option>
+					<option value="en">en</option>
+					<option value="be">be</option>
+					<option value="zh">zh</option>
+				</select>
+				<input type="button" value="Вход" onClick='location.href="login.html"'/>
+				<input type="button" value="Регистрация" onClick='location.href="registration.html"'/>
+			</form>
+			<h1><a href="quiz.html" size="30">JAVA QUIZ</a>	<h1> 
+			<h2>Basics</h2>
+		</header>
+		<main>
+			<ol>
+				<li>Что из приведенных примеров не является примитивным типом данных??</li>
+				<form>
+					<p>
+						<input type="radio" value="number1" name="task1"/>int
+					</p>
+					<p>
+						<input type="radio" value="number2" name="task1"/>String
+					</p>
+					<p>
+						<input type="radio" value="number3" name="task1"/>char
+					</p>
+					<p>
+						<input type="radio" value="number4" name="task1"/>double
+					</p>
+				</form>
+				<li>Любой ли метод можно переопределить??</li>
+				<form>
+					<p>
+						<input type="radio" value="number1" name="task2"/>да
+					</p>
+					<p>
+						<input type="radio" value="number2" name="task2"/>нет
+					</p>
+				</form>
+				<li>Какой комментарий неверен?</li>
+				<form>	
+					<p>
+						<input type="radio" value="number1" name="task3"/>//comment
+					</p>
+					<p>
+						<input type="radio" value="number2" name="task3"/>/*comment*/
+					</p>
+					<p>
+						<input type="radio" value="number1" name="task3"/>/*/*comment*/*/
+					</p>
+					<p>
+						<input type="radio" value="number2" name="task3"/>/**comment*/
+					</p>
+				</form>
+				<li>Как можно узнать длину массива nums?</li>
+				<form>
+					<br>
+					<input type="text"/>
+					<p>
+					<button type="submit">Отправить</button>
+					</p>
+				</form>
+			</ol>
+		</main>
+		<footer>
+			<hr>
+            <address> 
+				Контакты для связи <a href="mgarchuk6@gmail.com">mgarchuk6@gmail</a>.
+			</address>
+			<p>Copyright © javaquiz.com, 2021. Все права защищены.</p>
+        </footer>
+    </body>
+</html>
